@@ -4,12 +4,14 @@
 \alias{loadr}
 \title{Attach several packages}
 \usage{
-loadr(..., .x = NULL)
+loadr(..., .x = NULL, quiet = TRUE)
 }
 \arguments{
 \item{...}{package names quoted or not.}
 
 \item{.x}{a vector or a list that is concatenated to \code{...}.}
+
+\item{quiet}{If \code{FALSE}, the function prints output. Defaults to \code{TRUE}.}
 }
 \value{
 NULL invisibly.

@@ -11,7 +11,7 @@ library2(x, ..., quiet = TRUE)
 
 \item{...}{objects passed to \code{library} or \code{pak::pkg_install}.}
 
-\item{quiet}{If \code{FALSE}, the function prints output. Defaults to \code{TRUE}}
+\item{quiet}{If \code{FALSE}, the function prints output. Defaults to \code{TRUE}.}
 }
 \value{
 NULL invisibly.

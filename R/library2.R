@@ -2,7 +2,7 @@
 #'
 #' @param x a string indicating the name of the package to attach.
 #' @param ... objects passed to `library` or `pak::pkg_install`.
-#' @param quiet If `FALSE`, the function prints output. Defaults to `TRUE`
+#' @param quiet If `FALSE`, the function prints output. Defaults to `TRUE`.
 #'
 #' @return NULL invisibly.
 #' @export
